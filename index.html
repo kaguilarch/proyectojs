@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda de Repuestos</title>
+		<link rel="stylesheet" href="css/estilos.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Repuestos de vehiculos</h1>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://32.cdn.ekm.net/ekmps/shops/8ec6f5/images/toyota-supra-mk4-soarer-hsd-monopro-coilovers-jza80-zz30-16585-p.jpg?v=1"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Suspenciones</h2>
+					<p class="price">$450</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://th.bing.com/th/id/R.aea7189ac7513028200ad907fbb2a7b5?rik=NnSmnGjn%2fH4GLw&riu=http%3a%2f%2fcarspiritpk.com%2fwp-content%2fuploads%2f2016%2f09%2fSpoilers.jpg&ehk=IRPns%2bVnEWyvD%2fxLh4mMWZVBtbguPXqbg4DhWRvN6Gg%3d&risl=&pid=ImgRaw&r=0"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Alerones</h2>
+					<p class="price">$150</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://th.bing.com/th/id/R.ad42c9a28cfc5d42f38043d5ac1997d1?rik=oFuB%2b80cKKPg8g&pid=ImgRaw&r=0"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>calipers y frenos</h2>
+					<p class="price">$200</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://extremewheels.com/wp-content/uploads/2020/06/2006-2011-Replacement-Headlight-Pair-For-Honda-Civic-4-Dr-Sedan-Black-Housing.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>faros delanteros</h2>
+					<p class="price">190</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://http2.mlstatic.com/stop-externo-honda-civic-emotion-2006-2007-2008-2009-D_NQ_NP_775221-MLV20741874805_052016-F.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>focos traseros</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
